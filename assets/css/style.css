@@ -162,7 +162,9 @@ footer a {
   #portfolio {
     text-align: center;
   }
-
+  #small-parallax h2 {
+    font-size: 30px;
+  }
   #banner img {
     width: 100%;
   }
