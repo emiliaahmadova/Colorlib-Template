@@ -1,0 +1,176 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  background-image: url("../images/photo-1443527216320-7e744084f5a7-1.jpg");
+}
+header,
+#small-parallax,
+#customers {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1 {
+  font-size: 55px;
+  text-shadow: rgb(122, 122, 122) 0px 0px 10px;
+}
+.navbar {
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  z-index:10;
+}
+
+#portfolio,
+#banner {
+  background-color: #f5f5f5;
+}
+
+#small-parallax {
+  background-image: url("../images/photo-1452723312111-3a7d0db0e024.jpg");
+}
+
+#small-parallax h2 {
+  font-size: 60px;
+}
+#projects {
+  background-color: #0e1015;
+}
+#projects h4 {
+  font-size: 30px;
+}
+.project-item {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 35vh;
+}
+.item1 {
+  background-image: url("../images/photo1.jpg");
+}
+.item2 {
+  background-image: url("../images/photo2.jpg");
+}
+.item3 {
+  background-image: url("../images/photo3.jpg");
+}
+.item4 {
+  background-image: url("../images/photo4.jpg");
+}
+.item5 {
+  background-image: url("../images/photo5.jpg");
+}
+.item6 {
+  background-image: url("../images/photo6.jpg");
+}
+.item7 {
+  background-image: url("../images/photo7.jpg");
+}
+.item8 {
+  background-image: url("../images/photo8.jpg");
+}
+.item9 {
+  background-image: url("../images/photo9.jpg");
+}
+.item10 {
+  background-image: url("../images/photo10.jpg");
+}
+#customers {
+  background-image: url("../images/slide.jpg");
+}
+#customers img {
+  border-radius: 50%;
+}
+
+#download {
+  background-color: #f5f5f5;
+}
+
+footer {
+  background-color: #0e1015;
+  position: relative;
+}
+
+footer a {
+  color: gray;
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  border: 1px solid gray;
+  padding-block: 5px;
+  padding-inline: 10px;
+}
+.overlay h5 {
+  padding-top: 30%;
+}
+.overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(34, 34, 34, 0.9) 100%
+  );
+  visibility: hidden;
+  height: 100%;
+  cursor: pointer;
+}
+.project-item:hover .overlay {
+  visibility: visible;
+}
+
+.button {
+  font-weight: bold;
+  font-size: 12px;
+  padding-block: 20px;
+  padding-inline: 60px;
+  color: white;
+  background-color: #735cf9ea;
+  outline: none;
+  border: none;
+}
+
+.transparent {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  padding-inline: 40px;
+  font-size: 12px;
+  font-weight: bold;
+  padding-block: 18px;
+}
+.button:hover {
+  background-color: #5949cd;
+  transition: 0.3 ease;
+}
+.transparent:hover {
+  background-color: white;
+  color: black;
+  transition: 0.3 ease;
+}
+
+#clients img {
+  cursor: pointer;
+}
+
+@media (max-width: 767.98px) {
+  header h1 {
+    text-shadow: rgb(31, 30, 30) 0px 0px 10px;
+  }
+  #second,
+  #portfolio {
+    text-align: center;
+  }
+
+  #banner img {
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+  }
+
+  #download button {
+    padding: 10px;
+  }
+}
